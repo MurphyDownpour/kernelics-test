@@ -1,0 +1,68 @@
+.employee {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  flex: 0 1 calc(30% - 10px);
+  transition: box-shadow 0.3s ease;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.employee:hover {
+  box-shadow: 0 0 5px 5px #C6E3F6;
+}
+
+.employee-avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.employee-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.employee-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.employee-status {
+  font-size: 16px;
+  padding: 6px 12px;
+  text-transform: capitalize;
+  outline: none;
+}
+
+.working {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.business-trip {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.on-vacation {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+select.employee-status {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: transparent;
+  color: #333;
+}
