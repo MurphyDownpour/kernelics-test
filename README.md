@@ -4,6 +4,8 @@
 
 ```bash
 npm run start
+```
 
 ```bash
 npm run start:server
+```
